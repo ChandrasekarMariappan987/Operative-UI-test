@@ -1,0 +1,10 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.individualComponents {
+    width:49%;
+    padding:5px;
+}

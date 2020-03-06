@@ -1,0 +1,8 @@
+<div class="componentsContainer">    
+    <span *ngFor = "let i of buttons">
+        <span class="buttonsContainer" (click)="btnClickHandler(i.id, components.id)">
+            <span class="buttonsText">{{i.id}}</span>
+        </span>
+    </span>
+    <div  class="componentsCircle"><span>{{components.id}}</span></div>
+</div>

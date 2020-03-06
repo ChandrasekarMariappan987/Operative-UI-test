@@ -1,0 +1,38 @@
+
+.componentsContainer{
+    width:200px;
+    height:200px;
+    border:3px solid;
+}
+
+.buttonsContainer{
+    display:inline-block;
+    margin:20px;
+    width:50px;
+    height:50px;
+    border:3px solid blue;
+}
+
+.buttonsText {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.componentsCircle{
+    position: relative;
+    top: -50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    transform: translate(-50%,-50%);
+}
+
+.componentsCircle > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
